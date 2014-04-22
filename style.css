@@ -1,0 +1,66 @@
+/*
+ Theme Name:   omega Child Theme
+ Theme URI:    http://themehall.com/omega
+ Description:  Omega Child Theme
+ Author:       themehall
+ Author URI:   http://example.com
+ Template:     omega
+ Version:      0.9.8
+*/
+
+@import url("../omega/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.title-area {
+	background-color: steelblue;
+}
+/*#archives-2 ul{
+	display:none;
+}
+#archives-2:hover {
+	display: block;
+}*/
+
+/*#archives-2 {
+	background-color: transparent;
+	padding-left: 10px;
+	background-image: url("images/down.jpg");
+	background-repeat: no-repeat;
+}*/
+
+.widget-title{
+	background-color: transparent;
+	padding-left: 10px;
+	background-image: url("images/down.jpg");
+	background-repeat: no-repeat;
+}
+
+
+/*#archives-2 {margin:100px auto;width:200px;}*/
+/*#archives-2 ul{margin-left: 10px;}*/
+.widget-title ul {position:relative;font-weight:900;}
+.widget-title ul li {position:relative;list-style:none;cursor:pointer;}
+.widget-title ul li ul {position:absolute;left:0;right:0;}
+.widget-title ul .widget-title {position:relative;background:#2284B5;color:#FFF;}
+.widget-title ul li:hover, ul li .active {color:red;}
+/*.widget-title img {position:absolute;top:9px;left:12px;}*/
+/*.widget-title ul li a {transition:background-color 0.2s ease-in-out;-webkit-transition:background-color 0.2s ease-in-out;
+-moz-transition:background-color 0.2s ease-in-out;display:block;padding:8px 10px 8px 40px;background:#FFF;color:#333;text-decoration:none;}
+*/.widget-title:hover {color:red;}
+.widget-title ul li a:hover {color:red;}
+
+/* Fallbacks */
+.widget-title > ul {display:none;}
+/*#archives-2:hover {
+	display:block;
+	background-image: url("images/up.jpg");
+
+}*/
+
+.widget-title:hover {
+	display:block;
+	background-image: url("images/up.jpg");
+
+}
